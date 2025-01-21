@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="assets/j.png" type="imge/png">
+            <!--Fuente del Proyecto Raleway--> 
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <title>Mi Portafolio</title>
+</head>
+
+<body>
+    <!-- Menú -->
+    <header class="cabecera">
+        <img class="cabecera__logo" src="assets/vector.png" alt="Logo">
+        <h1 class="cabecera__titulo">Alura Latam</h1>
+        <nav class="navegacion">
+            <ul class="navegacion__lista">
+                <li class="navegacion__elemento"><a href="#sobre-mi">Sobre mí</a></li>
+                <li class="navegacion__elemento"><a href="#habilidades">Habilidades</a></li>
+                <li class="navegacion__elemento"><a href="#aficiones">Aficiones</a></li>
+                <li class="navegacion__elemento"><a href="#formacion">Formación</a></li>
+                <li class="navegacion__elemento"><a href="#proyectos">Proyectos</a></li>
+                <li class="navegacion__elemento"><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de Presentación ok -->
+    <section class="presentacion">
+        <div class="presentacion__contenedor">
+            <img class="presentacion__foto" src="assets/profile.jpg" alt="Foto de perfil">
+            <h2 class="presentacion__titulo">Hola, Soy Doraida Peñaranda y Estoy Aprendiendo desarrollo web</h2>
+            <p class="presentacion__subtitulo">Estudio en  Alura Latam y estoy participando en el proyecto Oracle ONE.</p>
+            <ul class="redes">
+                <li class="redes__img"><a href="https://github.com/JuanAlvarez2">Github <img src="assets/arrow.png" alt="Flecha"></a></li>
+                <li class="redes__img"><a href="https://www.linkedin.com/in/juan-alvarez-33a304322">Linkedin <img src="assets/arrow.png" alt="Flecha"></a></li>
+                <li class="redes__img"><a href="">Currículo <img src="assets/arrow.png" alt="Flecha"></a></li>
+            </ul>
+        </div>
+    </section>
+
+
+    <!-- Sección sobre mí -->
+    <section class="sobre__mi" id="sobre-mi">
+        <div class="sobre__container">
+            <h2 class="sobre__mi__titulo">Sobre mí</h2>
+            <p class="sobre__mi__texto">Mi nombre es Doraida y estoy iniciando mi camino en el desarrollo web. Desde siempre me han interesado los temas tecnológicos, especialmente entender cómo se crean los programas y aplicaciones que utilizamos diariamente.
+
+                Actualmente, estoy aprendiendo HTML, CSS y JavaScript para adquirir las bases necesarias y avanzar hacia mi objetivo de trabajar como desarrolladora web. Este portafolio representa los primeros pasos en mi aprendizaje y los proyectos que estoy construyendo para consolidar mis conocimientos.
+                
+                Además de la tecnología, me interesa la fotografía y disfruto de escucchar musica, actividades que complementan mi desarrollo personal y me inspiran a ser creativa en mis proyectos.</p>
+            <!-- Firma opcional -->
+        </div>
+    </section>
+
+    <!-- Sección de Habilidades -->
+    <section class="habilidades" id="habilidades">
+        <div class="habilidades__container">
+            <h2 class="habilidades__titulo">Habilidades</h2>
+            <ul class="habilidades__lista">
+                <div class="div__habilidades__html"> 
+                    <li class="habilidades__elemento">
+                        <img class="habilidades__icono" src="assets/html.png" alt="HTML">
+                        <p class="habilidades__nombre__html">HTML 5</p>
+                    </li>
+                </div>   
+
+
+
+                    <div class="div__habilidades__JS"> 
+                        <li class="habilidades__elemento">
+                            <img class="habilidades__icono" src="assets/js_icon.png" alt="JavaScript">
+                            <p class="habilidades__nombre__java">JavaScript</p>
+                        </li>
+                    </div>
+
+                <div class="div__habilidades__css"> 
+                    <li class="habilidades__elemento">
+                        <img class="habilidades__icono__css" src="assets/css_icon.png" alt="CSS">
+                        <p class="habilidades__nombre__css">CSS</p>
+                    </li>
+                </div>
+            </ul>
+        </div>
+        </section>
+
+    <!-- Sección de Aficiones -->
+    <section class="aficiones" id="aficiones">
+        <div class="aficionnes__container">    
+            <h2 class="aficiones__titulo">Aficiones</h2>
+            <ul class="aficiones__lista">
+                <div class="div__futbol__programar">    
+                    <li class="aficiones__elemento">
+                        <img class="aficiones__icono__computador" src="assets/computador_icon.png" alt="Computador">
+                        <p class="aficiones__nombre">Programar</p>
+                    </li>
+                </div> 
+                <div class="div__oirmusica__tomarfotos">   
+                    <li class="aficiones__elemento">
+                        <img class="aficiones__icono__oirmusica" src="assets/audifonos_icon.png" alt="Oír música">
+                        <p class="aficiones__nombre">Oír música</p>
+                    </li>
+                   
+                </div>     
+                <div class="div__editavideos__grabarvideos">    
+                    <li class="aficiones__elemento">
+                        <img class="aficiones__icono__camara" src="assets/camara_icon.png" alt="Camara">
+                        <p class="aficiones__nombre">Tomar fotos</p>
+                    </li>
+                </div>     
+            </ul>
+        </div>
+    </section>
+
+    <!-- Sección de Formación académica -->
+    <section class="formacion" id="formacion">
+        <div class="formacion__container">
+            <h2 class="formacion__titulo">Formación académica</h2>
+            <ul class="formacion__lista">
+                <li class="formacion__elemento">
+                    <img class="formacion__icono" src="assets/alura_logo.png" alt="Alura">
+                    <div>
+                        <h3 class="formacion__nombre">ONE | Fase 3 - Especialización Front-End</h3>
+                        <p class="formacion__detalle">2024-2025 - Alura</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Sección de Proyectos -->
+    <section class="proyectos" id="proyectos">
+            <div class="proyectos__container">
+            <h2 class="proyectos__titulo">Experiencia Profesional</h2>
+            <div class="proyectos__contenedor">
+                <h3 class="proyectos__nombre">Portafolio</h3>
+                <img class="proyectos__img" src="assets/Mi Portafolio.png" alt="Imagen del proyecto">
+                <div class="div__link">
+                    <a href="https://github.com/JuanAlvarez2/Encriptador-Texto.git" target="_blank">
+                        <img class="logos" src="assets/github.png" alt="logo de github">
+                    </a>
+                </div>
+            </div>
+    </section>
+
+
+    <!-- Sección de Contacto -->
+    <section class="contacto" id="contacto">
+        <div class="contacto__container"> 
+            <h2 class="contacto__titulo">Contacto</h2>
+            <form class="contacto__formulario">
+                <input class="contacto__campo" type="text" placeholder="Nombre">
+                <input class="contacto__campo" type="email" placeholder="Correo Electrónico">
+                <textarea class="contacto__campo contacto__campo--textarea" placeholder="Mensaje"></textarea>
+                <button class="contacto__boton" type="submit">Enviar</button>
+            </form>
+        </div>  
+    </section>
+</body>
+    <script src="script.js"></script>
+</html>

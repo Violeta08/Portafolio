@@ -1,0 +1,1074 @@
+/* Este repositório base fué creado para ayudarte en caso que no sepas como comenzar, recuerda que el portafolio es tu carta de presentación y debes darle tu cara, por eso te invitamos a personalizarlo según tu estilo y preferencias no te limites apenas al layout propuesto en figma  
+*/
+:root {
+    --color-de-fondo: #F5F5F5;
+    --color-de-fondo-menu: #ffffff;
+    --color-de-link: #000000;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  .presentacion__contenedor {
+    animation: fadeIn 1s ease-out;
+  }
+  
+
+body {
+    /*background-color: var(--color-de-fondo); */
+    background-image: url(assets/img_fondo2.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    line-height: 1.6;
+}
+
+
+ol, ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-de-link);
+}
+
+/* ------------------------------ Sección Menú -------------------------------*/
+.cabecera {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--color-de-fondo-menu);
+}
+
+.cabecera__logo {
+    max-width: 80px; /* Ajuste para pantallas pequeñas */
+}
+
+.cabecera__titulo {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.navegacion__lista {
+    display: none;
+}
+
+.navegacion__elemento a {
+    font-size: 0.9rem;
+}
+
+/* ------------------------------ Sección Presentación ------------------------------*/
+
+.presentacion {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    
+    
+}
+
+.presentacion__foto {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+}
+
+.presentacion__contenedor {
+    margin:auto;
+    background-color: aliceblue;
+    padding: 10px 0px 8px 5px;
+    box-shadow: 0px 0px 35px #0006;
+    width: 600px;
+    border-radius: 50px;
+}
+
+.presentacion__titulo {
+    text-align: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 22px;
+}
+
+.presentacion__subtitulo {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+
+}
+
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    justify-content: center; 
+
+    
+}
+
+.redes__img {
+font-weight: bold;
+cursor: pointer;
+}
+.redes__img:hover {
+    background-color: #c07fb5;
+}
+.redes__img:hover {
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+
+/* ------------------------------ Sección sobre mí ----------------------------------*/
+.sobre__mi {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+/*container*/
+.sobre__container {
+    margin: auto;
+    background-color: aliceblue;
+    padding: 0px 0px 30px 5px;
+    box-shadow: 0px 0px 35px #0006;
+    width: 700px;
+    border-radius:30px;
+}
+
+.sobre__mi__titulo {
+    text-align: center;
+    text-transform: capitalize;
+    box-sizing: border-box;
+}
+
+.sobre__mi__texto {
+    display: flex;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+
+/*------------------------------ Sección de Habilidades ------------------------------*/
+
+.habilidades {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+
+/*container*/
+.habilidades__container {
+    margin: auto;
+    background-color: aliceblue;
+    padding: 10px 0px 8px 5px;
+    box-shadow: 0px 0px 35px #0006;
+    width: 700px;
+    border-radius: 50px;
+}
+
+.habilidades__titulo {
+    text-align: center;
+    text-transform: capitalize;
+    box-sizing: border-box;
+}
+
+.habilidades__lista {
+    display: flex;
+    flex-direction: row;
+}
+
+.div__habilidades__html,
+.div__habilidades__JS,
+.div__habilidades__css {
+    background-color: aliceblue;
+    padding: 10px 10px 8px 35px;
+    
+
+    
+}
+
+
+.div__habilidades__html {
+    margin: 0px 130px 0px 0px;
+}
+
+.div__habilidades__JS {
+    margin: 0px 50px 0px 0px ;
+
+}
+
+.div__habilidades__css {
+    margin: 0px 130px 0px 60px;
+}
+
+.habilidades__nombre__html,
+.habilidades__nombre__java,
+.habilidades__nombre__css {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.habilidades__nombre__html {
+    margin: 10px 0px 30px -8px;
+    text-align: center;
+}
+
+.habilidades__nombre__java {
+    margin: 10px 0px 5px -20px;
+    text-align: center;
+}
+
+.habilidades__nombre__css {
+    margin: 7px 0px 0px 0px;
+    text-align: center;
+}
+
+
+/*------------------------------ Sección de Aficiones --------------------------------*/
+
+.aficiones {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+/*container*/
+.aficionnes__container {
+    margin: auto;
+    background-color: aliceblue;
+    padding: 10px 0px 8px 5px;
+    box-shadow: 0px 0px 35px #0006;
+    width: 700px;
+    border-radius: 50px;
+}
+
+.aficiones__titulo {
+    text-align: center;
+    text-transform: capitalize;
+    box-sizing: border-box;
+}
+
+.aficiones__lista {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.div__futbol__programar,
+.div__oirmusica__tomarfotos,
+.div__editarvideos__grabarvideos {
+    background-color: aliceblue;
+    padding: 10px 10px 8px 35px;
+    
+}
+
+.div__futbol__programar {
+    margin: 0px 100px 0px 0px;
+}
+
+.div__oirmusica__tomarfotos {
+    margin: 0px 110px 0px 0px ;
+}
+
+.div__editarvideos__grabarvideos {
+    margin: 0px 130px 0px 60px;
+}
+
+.aficiones__icono__futbol,
+.aficiones__icono__computador,
+.aficiones__icono__oirmusica,
+.aficiones__icono__camara {
+    margin: 10px 0px 0px 24px; 
+}
+
+.aficiones__icono__editar {
+    margin: 25px 0px 0px 30px;
+}
+
+.aficiones__icono__videos {
+    margin-top: 7px;
+    margin-left: 10px;
+
+}
+
+.aficiones__nombre {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    margin: auto; 
+    text-align: center;
+}
+
+/*------------------------------ Sección de Formación --------------------------------*/
+
+.formacion {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+
+/*container*/
+.formacion__container {
+    margin: auto;
+    background-color: aliceblue;
+    padding: 10px 0px 8px 5px;
+    box-shadow: 0px 0px 35px #0006;
+    width: 700px;
+    border-radius: 50px;
+}
+
+.formacion__titulo {
+    text-align: center;
+}
+
+.formacion__lista {
+    display: flex;
+    flex-direction: row;
+}
+
+.formacion__elemento {
+    margin: auto;
+    background-color: aliceblue;
+    padding: 10px 5px 8px 5px;
+    box-shadow: 0px 0px 35px rgba(8, 0, 119, 0.4);
+}
+
+.formacion__icono {
+    margin: 10px 0px 20px 75px;
+}
+
+/*------------------------------ Sección de Proyectos ---------------------------------*/
+
+.proyectos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+/*container*/
+.proyectos__container {
+    margin: auto;
+    background-color: aliceblue;
+    padding: 10px 0px 8px 5px;
+    box-shadow: 0px 0px 35px #0006;
+    width: 700px;
+    border-radius: 50px;
+}
+
+.proyectos__titulo {
+    text-align: center;
+}
+
+.proyectos__contenedor {
+    margin-top: 10px;
+    margin-left: 2%;
+    margin-bottom: 40px;
+    background-color: rgb(146, 66, 167);
+    padding: 5px 0px 10px 5px;
+    box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.4);
+    width: 650px;
+}
+
+.div__link {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.link__encriptador {
+    margin-left: 20px;
+    margin-right:20px;
+    width: auto;
+    padding: 8px 8px;
+    color: black;
+    border-radius: 16px;
+    border: 7px solid whitesmoke;
+    box-sizing: border-box;
+    font-family: tahoma;
+    font-size: 17px;
+    font-weight: 600;
+}
+.logos:hover {
+    background-color: white;
+}
+
+.link__encriptador:hover {
+    background-color: white;
+}
+
+.proyectos__nombre {
+    text-align: center;
+} 
+
+.proyectos__descripcion {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.proyectos__img {
+    width: 600px;
+    padding-left: 20px;
+}
+
+
+
+
+/* ------------------------------ Sección de Contacto ---------------------------------------*/
+.contacto {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+/*container*/
+.contacto__container {
+    margin: auto;
+    background-color: rgb(165, 103, 180);
+    padding: 10px 0px 8px 5px;
+    box-shadow: 0px 0px 35px #0006;
+    width: 700px;
+}
+
+.contacto__titulo {
+    text-align: center;
+}
+
+.contacto__formulario {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+
+.contacto__campo {
+    width: 100%;
+    height: 60px;
+    font-size: 17px;
+    padding: 0 25px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 5px 10px 1px rgba(0,0,0, 0.5);
+    outline: none;
+    transition: .3s;
+}
+
+::placeholder {
+    font-weight: 500;
+    color: #222;
+}
+
+.contacto__campo:focus {
+    width: 105%;
+}
+
+.contacto__campo--textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+.contacto__boton {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s;
+
+}
+
+.contacto__boton:hover {
+    background-color: #a869b1;
+}
+
+
+
+/* ------------------------------ Responsividad ---------------------------------------*/
+/*patalla celular*/
+/* Media query para pantallas de hasta 768px */
+@media (max-width: 767px) {        
+
+/* ------------------------------ Sección de Presentación ---------------------------------------*/
+    .presentacion {
+        margin-bottom: 80px;
+    }
+    
+    .presentacion__contenedor {
+        margin: auto;
+        width: 100%;
+        padding: 8px 0px 6px 5px;
+        box-shadow: 0px 0px 25px #0004;
+    }
+
+    .presentacion__foto {
+        display: flex;
+        align-items: center;
+        margin: auto;
+        width: 80%;
+    }
+    
+    
+    .presentacion__titulo {
+        font-size: 20px;
+    }
+    
+    .presentacion__subtitulo {
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    .redes {
+        box-sizing: border-box;
+        gap: 0px;
+        font-size: 16px;
+        margin-left: -39px;
+    }
+    
+    .redes__img {
+        font-size: 16px;
+        padding: 5px;
+        box-sizing: border-box;
+    }
+    
+    .redes__img:hover {
+        background-color: #b1dedc;
+        padding: 5px;
+    }
+
+    /*sobre mi*/
+    .sobre__container {
+        margin: auto;
+        width: 100%;
+    }
+
+    .sobre-mi__texto {
+        font-size: 14px;
+    }
+        /*Habilidades*/
+    .habilidades__container{
+        margin: auto;
+        width: 100%;
+    }
+
+    .habilidades__lista {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .habilidades__elemento {
+        margin: 10px 0;
+    }
+
+    .habilidades__icono,
+    .aficiones__icono {
+        margin: 0;
+    }
+
+    .habilidades__nombre,
+    .habilidades__nombrephp {
+        margin: 5px 0;
+        text-align: center;
+    }
+
+        /*div container*/
+    .div__habilidades__html__js {
+        margin-left: -160px;
+        box-sizing: border-box;
+        
+    }
+    .div__habilidades__electricidad__herramienta {
+        margin: -200px 55px 10px 0px;
+        z-index: 1;
+        
+
+    }
+    .div__habilidades__electronica__css {
+        margin: -210px -180px 0px 0px;
+    }
+        /*Nombres*/
+    .habilidades__nombre__html {
+        margin: 0px 5px 0px -7px;
+    }
+    .habilidades__nombre__java {
+        margin: 0px 0px 0px -20px;
+    }
+    .habilidades__nombre__electricidad {
+        margin: 5px 0px 0px -30px;
+        
+    }
+    .habilidades__nombre__mantenimiento {
+        margin: 0px 0px 0px -10px;
+    }
+    .habilidades__nombre__electronica {
+        margin: 5px 0px 0px -30px;
+    }
+    .habilidades__nombre__css {
+        margin: 0px 0px 0px 3px;
+        
+    }
+        /*iconos*/
+    .habilidades__icono__electricidad,
+    .habilidades__icono__mantenimiento {
+        margin-left: 20px;
+    }
+
+    .habilidades__titulo {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    /*Aficiones */
+    .aficionnes__container {
+        margin: auto;
+        width: 100%;
+    }
+
+    .aficiones__titulo {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .aficiones__lista {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div__futbol__programar {
+        margin: 0px 310px 10px 0px;
+        z-index: 1;
+    }
+    .div__oirmusica__tomarfotos {
+        margin: -215px 100px 10px 0px;
+    }
+    .div__editavideos__grabarvideos {
+        margin: -220px 0px 0px 150px;
+    }
+
+    .aficiones__icono {
+        margin: 0 0 10px 0;
+    }
+
+    .aficiones__nombre {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    /*Formacion academica*/
+    .formacion__container{
+        margin: auto;
+        width: 100%;
+    }
+
+    .formacion__titulo {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .formacion__lista {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .formacion__elemento {
+        margin-left: -30px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .formacion__icono{
+        margin-right: 50px;
+    }
+
+    /*Experiencia Profesional*/
+    
+    .proyectos__container {
+        margin: auto;
+        width: 100%;
+        
+    }
+
+    .proyectos__contenedor {
+        margin-left: 15px;
+        width: 90%;
+    }
+
+    .div__link {
+        flex-direction: row-reverse;
+    }
+
+    .link__encriptador {
+        margin-left: 10px;
+        margin-right: 10px;
+        width: auto;
+    }
+
+    .proyectos__img {
+        width: 95%;
+        margin-left: -12px;
+    }
+}
+    /*contacto*/
+    .contacto__container {
+        margin: auto;
+        background-color: rgb(146, 66, 167);
+        padding: 10px 0px 8px 5px;
+        box-shadow: 0px 0px 35px #0006;
+        width: 100%;
+    }
+    
+    .contacto__titulo {
+        text-align: center;
+    }
+    
+    .contacto__formulario {
+        max-width: 80%;
+        margin-right: 70px;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .contacto__campo {
+        width: 100%;
+        height: 60px;
+        font-size: 17px;
+        padding: 0 25px;
+        margin-bottom: 15px;
+        border-radius: 30px;
+        border: none;
+        box-shadow: 0px 5px 10px 1px rgba(0,0,0, 0.5);
+        outline: none;
+        transition: .3s;
+    }
+    
+    ::placeholder {
+        font-weight: 500;
+        color: #222;
+    }
+    
+    .contacto__campo:focus {
+        width: 105%;
+    }
+    
+    .contacto__campo--textarea {
+        min-height: 150px;
+        resize: vertical;
+    }
+    
+    .contacto__boton {
+        width: 100%;
+        height: 60px;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        font-family: sans-serif;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: .3s;
+        margin-left: 25px;
+    }
+    
+    .contacto__boton:hover {
+        background-color: #848285;
+    }
+    /*patalla tablet*/
+    /* Media query para pantallas de hasta 768px */
+    @media (min-width: 768px) and (max-width: 990px) {
+        
+    /* ------------------------------ Sección de Presentación ---------------------------------------*/
+        .presentacion {
+        margin-bottom: 80px;
+        }
+        
+        .presentacion__contenedor {
+        margin: auto;
+        width: 75%;
+        padding: 8px 0px 6px 5px;
+        box-shadow: 0px 0px 25px #0004;
+        }
+
+        .presentacion__foto {
+        margin-left: 50px;
+        margin-top: 70px;
+        width: 80%;
+        }
+        
+        
+        .presentacion__titulo {
+        font-size: 20px;
+        }
+        
+        .presentacion__subtitulo {
+        font-size: 15px;
+        }
+        
+        .redes {
+        gap: 30px;
+        font-size: 16px;
+        }
+        
+        .redes__img {
+        font-size: 16px;
+        }
+        
+        .redes__img:hover {
+        background-color: rgb(110, 109, 110);
+        padding: 5px;
+        
+        }
+
+
+        /* ------------------------------ Sección sobre mí ----------------------------------*/
+
+        .sobre__container {
+            width: 100%; /* Ajusta el ancho del contenedor */
+            padding: 0px  /* Ajusta el padding */
+        }
+
+        .sobre-mi__titulo {
+            font-size: 22px;
+        }
+
+        .sobre__mi__texto {
+            font-size: 14px; /* Ajusta el tamaño de fuente */
+        }
+        
+        .sobre__mi {
+            margin-bottom: 50px; /* Ajusta el margen inferior */
+        }
+
+        /*------------------------------ Sección de Habilidades ------------------------------*/
+
+        .habilidades__container {
+            width: 100%; /* Ajusta el ancho del contenedor */
+            padding: 0px; /* Ajusta el padding */
+        }
+        
+        .habilidades__lista {
+            flex-direction: column; /* Cambia la dirección de la lista a columna */
+            align-items: center; /* Alinea los elementos en el centro */
+        }
+        /*div container*/
+        .div__habilidades__html__js {
+            margin: 0px 550px 90px 0px;
+        }
+        .div__habilidades__electricidad__herramienta {
+            margin: -270px 50px 0px 0px;
+        }
+        .div__habilidades__electronica__css {
+            margin: -170px -440px 0px 0px;
+        }
+        
+            /*Nombres*/
+    .habilidades__nombre__html {
+        margin: 0px 5px 10px -7px;
+    }
+    .habilidades__nombre__java {
+        margin: 0px 0px 0px -20px;
+    }
+    .habilidades__nombre__electricidad {
+        margin: 6px 0px 10px -30px;
+    }
+    .habilidades__nombre__mantenimiento {
+        margin: 0px 0px 0px -25px;
+    }
+    .habilidades__nombre__electronica {
+        margin: 0px 5px 15px -20px;
+    }
+    .habilidades__nombre__css {
+        margin: -5px 0px 0px 3px;
+        
+    }
+
+        /*iconos*/
+    .habilidades__icono__electricidad,
+    .habilidades__icono__mantenimiento {
+        margin-left: 20px;
+    }
+
+        /*------------------------------ Sección de Aficiones --------------------------------*/
+
+        .aficionnes__container {
+            width: 100%; /* Ajusta el ancho del contenedor */
+            padding: 0px; /* Ajusta el padding */
+        }
+        
+        .aficiones__lista {
+            flex-direction: column; /* Cambia la dirección de la lista a columna */
+            align-items: center; /* Alinea los elementos en el centro */
+        }
+        
+        .div__futbol__programar {
+            margin: 0px 510px 0px 0px;
+        }
+        .div__oirmusica__tomarfotos {
+            margin: -207px 70px 10px 0px;
+        }
+        .div__editavideos__grabarvideos {
+            margin: -220px -400px 0px 0px;
+        }
+        .aficiones__nombre {
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        /*------------------------------ Sección de Formación --------------------------------*/
+
+        .formacion__container {
+            width: 100%; /* Ajusta el ancho del contenedor */
+            padding: 0px; /* Ajusta el padding */
+        }
+        
+        .formacion__lista {
+            flex-direction: column; /* Cambia la dirección de la lista a columna */
+            align-items: center; /* Alinea los elementos en el centro */
+        }
+        
+        .formacion__elemento {
+            margin-bottom: 20px; /* Agrega margen inferior a cada elemento */
+        }
+        
+        .formacion__icono {
+            margin-left: 90px; /* Ajusta el margen izquierdo del icono */
+        }
+
+        
+
+        /*------------------------------ Sección de Proyectos ---------------------------------*/
+
+        .proyectos__container {
+            width: 100%; /* Ajusta el ancho del contenedor */
+            padding: 0px; /* Ajusta el padding */
+        }
+        
+        .proyectos__contenedor {
+            width: 80%; /* Ajusta el ancho del contenedor interno */
+            margin-left: 10%; /* Ajusta el margen izquierdo */
+        }
+        
+        .proyectos__img {
+            width: 100%; /* Ajusta el ancho de la imagen */
+            padding-left: 0px; /* Elimina el padding izquierdo */
+        }
+        
+        .link__encriptador {
+            margin-left: 10px; /* Ajusta el margen izquierdo del enlace */
+            margin-right: 10px; /* Ajusta el margen derecho del enlace */
+            font-size: 15px; /* Ajusta el tamaño de fuente */
+        }
+        
+        .proyectos__descripcion {
+            font-size: 14px; /* Ajusta el tamaño de fuente */
+        }
+
+        /* ------------------------------ Sección de Contacto ---------------------------------------*/
+        
+        .contacto__container{
+            width: 100%;
+            padding: 50px;
+            box-sizing: border-box;
+        }
+        
+            
+        .contacto__titulo {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+            
+        .contacto__formulario {
+            max-width: 100%;
+            padding: 0 15px;
+        }
+            
+        .contacto__campo {
+            font-size: 16px;
+            padding: 0 15px;
+            height: 50px;
+        }
+            
+        .contacto__campo:focus {
+            width: 100%;
+        }
+            
+        .contacto__campo--textarea {
+            min-height: 120px;
+        }
+            
+        .contacto__boton {
+            font-size: 18px;
+            height: 50px;
+        }
+    }
+
+/* Tablets y pantallas más grandes */
+@media (min-width: 768px) {
+    .cabecera {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .cabecera__logo {
+        max-width: 100px;
+    }
+
+    .cabecera__titulo {
+        font-size: 1.5rem;
+    }
+
+    .navegacion__lista {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        margin-top: 0;
+    }
+
+    .navegacion__elemento a {
+        font-size: 1rem;
+    }
+    
+    
+}
+/* Pantallas grandes *
+@media (min-width: 1024px) {
+    /* Aquí puedes ajustar aún más el diseño para pantallas grandes 
+    .cabecera__titulo {
+        font-size: 1.8rem;
+    }
+
+    .navegacion__elemento a {
+        font-size: 1.1rem;
+    }
+}  
+*/
