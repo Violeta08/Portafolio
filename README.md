@@ -47,7 +47,7 @@ Este portafolio tiene un diseño simple y limpio, enfocado en resaltar la inform
 
 ### 👨‍💻 Autor
 
-**Tu Nombre Aquí**  
+**Doraida PA**  
 [GitHub](https://github.com/Violeta08) 
 
 ---
