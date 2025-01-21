@@ -1,24 +1,56 @@
-# Challenge ONE | Front End -  Portafolio
+# Portafolio | Desarrollador Front-End
 
-<p align="center" >
-     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/169097543-d5ada41e-7db8-481d-9d89-cef4efdf7e05.png">
+<p align="center">
+  <img width="600" height="600" src="https://user-images.githubusercontent.com/101413385/169097543-d5ada41e-7db8-481d-9d89-cef4efdf7e05.png">
 </p>
 
+### ¡Bienvenido a mi Portafolio!
 
-### ¡Bienvenido al proyecto base del Portafolio ! Pasos principales:
+Este es mi portafolio personal donde podrás conocer más sobre mí, mis proyectos y habilidades como desarrollador Front-End. Aquí se muestran algunos de los proyectos que he realizado, así como los detalles de las tecnologías que utilizo y cómo puedes ponerte en contacto conmigo.
+
 ---
-#### Marca este proyecto con una estrella ⭐
-#### Sigue las lecciones y las instrucciones de contenido 📚
 
-### Analisando el repositorio!
+### 🚀 Pasos para comenzar
+
+1. **Marca este proyecto con una estrella ⭐** para seguirlo y mantenerte al tanto de mis actualizaciones.
+2. **Sigue las lecciones y las instrucciones de contenido 📚** para aprender más sobre cómo desarrollé este proyecto.
+
 ---
-### Este repositorio base es una sugerencia inicial, en caso de que aún no tengas un diseño que refleje tu estilo y personalidad. Siéntete libre de modificar tu portafolio como desees, aquí encontrarás:
-#### 🔹index.html: Documento HTML concluído que puedes utilizar en tu proyecto. Las fuentes, los archivos CSS y Javascript ya están referenciados en el documento y todas las secciones contienen comentários que te ayudan a entender la estructura. Si quieres, puedes aventurarte y contruir tu propio HTML.
-#### 🔹style.css: Documento de CSS con instrucciones de estilo y algunas sugerencias de desarrollo.
-#### 🔹script.js: Documento vacío dónde puedes desarrollar tu lógica para validar el formulário, ESTA VALIDACIÓN ES CONSIDERADA UN DESAFÍO EXTRA POR LO QUE NO ES OBLIGATÓRIA SU IMPLEMENTACIÓN.
 
-#### Cuando clones o descargues el proyecto base, tendrás la siguiente presentación:
-<p align="center" >
-     <img width="600" heigth="600" src="https://user-images.githubusercontent.com/101413385/169064699-f268715c-822c-4335-b066-97a1bc1ea8e1.png">
+
+### 🎨 Diseño
+
+Este portafolio tiene un diseño simple y limpio, enfocado en resaltar la información más importante: tus habilidades y proyectos. La idea es hacer que sea fácil de navegar y agradable para cualquier visitante.
+
+<p align="center">
+  <img width="600" height="600" src="https://user-images.githubusercontent.com/101413385/169064699-f268715c-822c-4335-b066-97a1bc1ea8e1.png">
 </p>
+
+---
+
+### 🛠️ Tecnologías Utilizadas
+
+- **HTML5**: Estructura de la página web, marcando las secciones importantes.
+- **CSS3**: Estilos visuales para mejorar la apariencia de la página.
+- **JavaScript**: Agrega interactividad y dinámica al portafolio.
+- **GitHub**: Hospedaje del repositorio y control de versiones.
+
+---
+
+### 💼 Funcionalidades del Proyecto
+
+- **Sección de Proyectos**: Muestra algunos de los proyectos que he realizado, con enlaces para ver más detalles de cada uno.
+- **Sección de Habilidades**: Enumera las tecnologías y herramientas con las que trabajo habitualmente.
+- **Formulario de Contacto**: Permite a los visitantes enviar un mensaje directamente desde el portafolio (funcionalidad opcional).
+  
+---
+
+### 👨‍💻 Autor
+
+**Tu Nombre Aquí**  
+[GitHub](https://github.com/Violeta08) 
+
+---
+
+Si tienes alguna pregunta o sugerencia, no dudes en contactarme. ¡Estoy siempre disponible para colaborar y aprender!
 
